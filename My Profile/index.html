@@ -7,74 +7,81 @@
 </head>
 <body>
 
-    <h1>Tracy Lethoko's Portfolio</h1>
-
-    <nav>
-        <ul>
-        <li>About Me</li>
-        <li>Skills</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Tracy Lethoko's Portfolio</h1>
+        <nav>
+            <ul>
+                <li>About Me</li>
+                <li>Skills</li>
+                <li>Portfolio</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
 
     
-    <section><h2>About Me</h2>
-
-    <img src="My Profile/images/me.jpeg" alt="A picture of Tracy Lethoko">
-
-    <p>Hello! I'm Tacy Lethoko. I'm passionate about web development and design. I love intuative, minimalistic yet beautiful designs</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="My Profile/images/me.jpeg" alt="A picture of Tracy Lethoko">
+        <p>Hello! I'm Tacy Lethoko. I'm passionate about web development and design.
+            I love intuative, minimalistic yet beautiful designs</p>
     </section>
     
-    <section><h2>My Skills</h2>
-
-    <ul>
-        <li>Web Development</li>
-        <li>UI/UX Design</li>
-        <li>Backend Development</li>
-        <li>Database Management</li>
-        <li>SEO Optimization</li>
-    </ul></section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>UI/UX Design</li>
+            <li>Backend Development</li>
+            <li>Database Management</li>
+            <li>SEO Optimization</li>
+        </ul>
+    </section>
     
-    <section><h2>Portfolio</h2>
-    <table>
-        <tr>
-            <th>Project Name</th>
-            <th>Date</th>
-            <th>Description</th>
-            <th>Thumbnail</th>
-        </tr>
-        <tr>
-            <td>Die Swarte</td>
-            <td>Febuary 2025</td>
-            <td>A wedding Website</td>
-            <td><img src="My Profile/images/SWARTE MOCK.png" alt="Wedding Website Thumbnail"></td>
-        </tr>
-        <tr>
-            <td>Pwer Media</td>
-            <td>November 2017</td>
-            <td>A web design agency</td>
-            <td><img src="My Profile/images/pwermedia old mock.jpg" alt="Pwe Media Thumbnail"></td>
-        </tr>
-    </table></section>
+    <section id="Portfolio">
+        <h2>Portfolio</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Thumbnail</th>
+            </tr>
+            <tr>
+                <td>Die Swarte</td>
+                <td>Febuary 2025</td>
+                <td>A wedding Website</td>
+                <td><img src="My Profile/images/SWARTE MOCK.png" alt="Wedding Website Thumbnail"></td>
+            </tr>
+            <tr>
+                <td>Pwer Media</td>
+                <td>November 2017</td>
+                <td>A web design agency</td>
+                <td><img src="My Profile/images/pwermedia old mock.jpg" alt="Pwe Media Thumbnail"></td>
+            </tr>
+        </table>
+    </section>
 
-    <section>
+    <section id="contact">
         <h2>Contact Me</h2>
 
-    <form action="/action_page.php"></form>
+        <form action="/action_page.php"></form>
+        
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
     
-    <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname">
-   
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email">
-   
-    <label for="message">Message:</label>
-    <input type="text" id="message" name="message">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
     
-    <input type="submit" value="Submit"></section>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message">
+        
+        <input type="submit" value="Submit">
+    </section>
 
-    <footer><p>2025 Tracy Lethoko. All rights reserved.</p></footer>
+    <footer>
+        <p>2025 Tracy Lethoko. All rights reserved.</p>
+    </footer>
 
 
 
